@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Admin Login - Dynamic Tripod Associate</title>
+<link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+<div class='container'>
+<h1>Admin Login</h1>
+<form id='loginForm'>
+<label>Email</label><input type='email' id='adminEmail' value='keraalamin@gmail.com' required>
+<label>Password</label><input type='password' id='adminPassword' required>
+<button type='submit'>Login</button>
+</form>
+<p id='loginMessage'></p>
+</div>
+<script src='https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js'></script>
+<script src='https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js'></script>
+<script src='auth.js'></script>
+</body>
+</html>
